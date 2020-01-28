@@ -87,7 +87,6 @@ char* my_strcpy(char* destination, const char* source) {
 }
 
 char* my_strncpy(char* destination, const char* source, int n) {
-	int count = n;
 	char* dest_ptr = destination;
 
 	while (*source && n--) {
